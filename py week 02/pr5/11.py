@@ -1,0 +1,6 @@
+s1 = str(input("text: "))
+s2 = s1.split()
+r = max(s2)
+r = r.replace("!", ".")
+r = r.replace("?", ".")
+print(r)
